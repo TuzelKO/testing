@@ -1,0 +1,27 @@
+{
+    "name": "skynet/backender",
+    "description": "I'm alive",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Eugene Frost",
+            "email": "tuzelko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "Engine/"
+        },
+        "files": ["db_cfg.php"]
+    },
+    "config": {
+        "vendor-dir": "Vendor"
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-mysqli": "*",
+        "ext-json": "*"
+    }
+    
+}
